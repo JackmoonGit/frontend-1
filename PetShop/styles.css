@@ -126,7 +126,7 @@ section.banner .btn {
   padding: 3% 0;
 }
 .product-featured {
-  color: #3C2313;
+  color: #3c2313;
   font-size: 40px;
   font-weight: 700;
   margin: 15px 0px;
@@ -145,18 +145,18 @@ section.banner .btn {
   gap: 20px;
 }
 .product-box {
-  background-color: #FBFAF6;
+  background-color: #fbfaf6;
   text-align: center;
   padding: 10px;
 }
 .product-box-desc {
-  color: #3C2313;
+  color: #3c2313;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 5px;
 }
 .product-box-price {
-  color: #F0A83E;
+  color: #f0a83e;
   font-size: 15px;
   font-weight: 500;
 }
@@ -164,7 +164,7 @@ section.banner .btn {
 /* Footer */
 
 .container-sup {
-  background-color: #3C2313;
+  background-color: #3c2313;
   display: flex;
   flex-grow: 0;
   flex-shrink: 0;
@@ -195,7 +195,7 @@ section.banner .btn {
   font-weight: 700;
 }
 .social-desc {
-  color: #8A8787;
+  color: #8a8787;
   font-size: 14px;
   font-weight: 700;
 }
