@@ -125,8 +125,22 @@ section.banner .btn {
   align-items: center;
   padding: 3% 0;
 }
+.product-featured {
+  color: #3C2313;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0px;
+}
+.product-featured-desc {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  word-spacing: 10px;
+  margin-bottom: 15px;
+}
 .products-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
 }
@@ -146,19 +160,7 @@ section.banner .btn {
   font-size: 15px;
   font-weight: 500;
 }
-.product-featured {
-  color: #3C2313;
-  font-size: 40px;
-  font-weight: 700;
-  margin: 15px 0px;
-}
-.product-featured-desc {
-  color: #666666;
-  font-size: 15px;
-  font-weight: 400;
-  word-spacing: 10px;
-  margin-bottom: 15px;
-}
+
 /* Footer */
 
 .container-sup {
@@ -205,4 +207,53 @@ section.banner .btn {
   color: white;
   justify-content: center;
   padding: 10px;
+}
+
+@media (max-width: 480px) {
+  nav.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img.logo.header {
+    padding: 10px;
+  }
+  nav.main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  nav.main li {
+    display: flex;
+    padding-left: 20px;
+  }
+  section.banner h1 {
+    font-size: 18px;
+    padding: 8px;
+  }
+  section.banner h2 {
+    font-size: 18px;
+  }
+  section.banner .btn {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .product-featured {
+    font-size: 30px;
+    text-align: center;
+  }
+  .product-box-desc {
+    font-size: 16px;
+  }
+  .product-box-price {
+    font-size: 16px;
+  }
+  .container-sup {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
